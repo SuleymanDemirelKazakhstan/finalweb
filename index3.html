@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<title>Document</title>
+</head>
+<body>
+    <div class="header">
+
+   
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="manwomen.html">Products</a></li>
+                    <li><a href="index2.html">Exclusive</a></li>
+                    <li><a href="index3.html">Comment</a></li>
+    
+                    <li><a href="index4.html">Account</a></li>
+                <li><a href="map.html">Map</a></li>
+    
+    
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<div class="testimonial">
+    <div class="title">
+        <h2>
+            Comments
+        </h2>
+    </div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum error fugiat similique nisi quas, eos nam distinctio odio, suscipit minus porro repudiandae hic quam cum mollitia commodi illum dicta? Ullam?</p>
+               
+          
+            <img src="images/user-2.png" alt="">
+            <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum error fugiat similique nisi quas, eos nam distinctio odio, suscipit minus porro repudiandae hic quam cum mollitia commodi illum dicta? Ullam?</p>
+          
+        
+        <img src="images/user-3.png" alt="">
+        <h3>Sean Parker</h3>
+    </div>
+    <div class="col-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iusto, nemo cum magnam itaque alias consectetur tenetur odit earum minima culpa atque, nostrum iste voluptatem velit placeat repellendus optio distinctio?</p>
+       
+   
+    <img src="images/user-1.png" alt="">
+    <h3>Sean Parker</h3>
+</div>
+    </div>
+</div>
+</div> 
+
+<div class="file">
+<form action="/action_page.php">
+  <label for="myfile">Оставьте заявку</label>
+  <input type="file" id="myfile" name="myfile"><br>
+  <input type="submit">
+</form>
+</div> 
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight = "0px" ){
+            MenuItems.style.maxHeight ="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+
+</script>
+</body>
+</html>

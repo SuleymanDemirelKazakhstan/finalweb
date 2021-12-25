@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+
+   
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="manwomen.html">Products</a></li>
+                    <li><a href="index2.html">Exclusive</a></li>
+                    <li><a href="index3.html">Comment</a></li>
+    
+                    <li><a href="index4.html">Account</a></li>
+                <li><a href="map.html">Map</a></li> 
+    
+    
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+   
+ <div class="row ">
+        <div class="col-2_map" id="map">
+             <object data="images/logo.png" width="100%" height="40%" class="object"></object>
+
+        </div>
+        <div class="col-2_map" >
+         <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11632.333264440063!2d76.6690542!3d43.2077418!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b7d14aec270c056!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQodGD0LvQtdC50LzQsNC9INCU0LXQvNC40YDQtdC70Y8!5e0!3m2!1sru!2skz!4v1639095813543!5m2!1sru!2skz"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+     </div>
+    </div>
+</div>
+</div>
+<div class="footer"> <!--Footer-->
+  <ul>
+   <li class="iconfi"><i class="fa fa-facebook" ></i></li>
+   <li class="iconfi"><i class="fa fa-instagram"></i></li>
+   <li class="iconfi"><i class="fa fa-twitter"></i></li>
+   <li class="iconfi"><i class="fa fa-youtube"></i></li>
+  </ul>
+
+   <div class="table-responsive">
+       <table class="table">
+           <tbody>
+             <tr>
+               <td>Contact Us </td>
+               <td> Advertise </td>
+               <td>About Our  </td>
+             </tr>
+             <tr>
+               <td>Terms </td>
+               <td>Thornton</td>
+               <td>Support</td>
+             </tr>
+             <tr>
+               <td>Press </td>
+               <td>Newsletter</td>
+               <td>Subscribe</td>
+             </tr>
+           </tbody>   
+       </table>
+       <table>
+        <tr>
+          <textarea id="w3review" name="w3review" rows="1" cols="30">
+         Your message...
+          </textarea>
+        </tr>
+         <td> 
+          <button id="submit">Summit</button>
+         </td>
+        
+       </table>
+
+       <p style="color: #fff;">©2021 Assem, Zharas Inc. All Rights Reserved.</p>
+   </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+        if (MenuItems.style.maxHeight = "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+</body>
+</html>

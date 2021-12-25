@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<title>Document</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                   <li><a href="manwomen.html">Products</a></li>
+                <li><a href="index2.html">Exclusive</a></li>
+                <li><a href="index3.html">Comment</a></li>
+
+                <li><a href="index4.html">Account</a></li>
+                <li><a href="map.html">Map</a></li>
+              
+
+            </ul>
+        </nav>
+        <img src="images/cart.png" class="cart"  width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+   <br>
+   <br>
+   
+    <div class="row">
+        <div class="col-2" id="text_page1">
+<h1>Respect! <br> <span>Change your style!</span></h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque amet laboriosam, commodi aut ea deserunt quia aperiam perspiciatis voluptates cum voluptas soluta voluptate culpa in a, nam quidem. Repudiandae? </p>
+<a href="table.html" class="button" >Info</a>
+        </div>
+        <div class="col-2">
+            <video width="100%" height="30%" controls>
+  <source src="video/The wildly complex anatomy of a sneaker - Angel Chang.mp4" type="video/mp4">
+
+  
+</video>
+<audio class="audio"
+        controls
+        src="video/dombra-krasivaja-muzyka-kazahskaja(mp3gid.me).mp3">
+            
+            
+    </audio>
+        </div>
+        </div>
+    </div>
+    </div>
+   
+      
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight = "0px")
+                {
+                    MenuItems.style.maxHeight ="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+
+        </script>
+        <script>
+            new Vue({
+                el: '.form',
+                data: {
+                    title: ""
+                },
+            });
+
+        </script>
+</body>
+</html>

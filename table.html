@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                   <li><a href="manwomen.html">Products</a></li>
+                <li><a href="index2.html">Exclusive</a></li>
+                <li><a href="index3.html">Comment</a></li>
+
+                <li><a href="index4.html">Account</a></li>
+                <li><a href="map.html">Map</a></li>
+              
+
+            </ul>
+        </nav>
+        <img src="images/cart.png" class="cart"  width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  
+    </div>
+</div>
+
+<div class="about">
+  <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+    <div>
+      <img src="IMG/adidas.jpg" alt="">
+    </div>
+    <div class="col-start-3">
+      <img src="IMG/adidas.jpg" alt="">
+    </div>
+    <div>
+      <img src="IMG/adidas.jpg" alt="">
+    </div>
+    <div>
+      <img src="IMG//adidas.jpg" alt="">
+    </div>
+    <div class="row-start-1 col-start-2 col-span-2">
+      <img src="IMG//adidas.jpg" alt="">
+    </div>
+  </div>
+
+  <h2>About</h2>
+  <ol>
+    <li>Over the past years, Frankie Shop NYC and now Paris have been touted 
+      as the go-to place for unfussy, minimal, wallet-conscious styles. After 
+      all, every woman should be able to wear the garments that they inspire 
+      designers to make – no matter how high the rent gets!</li>
+  <li>Frankie is set to inspire the girl who enjoys affordable luxe-looking 
+      basics that connect with her city lifestyle; whether by taxi, subway, 
+      bike or cobblestone. Think classic shapes and timeless touches. Your 
+      everyday, effortless wardrobe with the occasional twist for flair.</li>
+
+  <li>The Frankie Shop Online will provide exclusive pieces from on-the-pulse 
+      designers such as Rachel Comey, Caron Callahan, LOQ, Karen Walker as well 
+      as hard-to-find international selections from Australia, Korea, Russia, 
+      Ukraine, Spain and many more. All the things you love about our brick and 
+      mortar store from the comfort of your Pinterest-perfect studio.</li>
+  </ol>
+</div>
+
+<hr>
+
+<div class="footer"> <!--Footer-->
+  <ul>
+   <li class="iconfi"><i class="fa fa-facebook" ></i></li>
+   <li class="iconfi"><i class="fa fa-instagram"></i></li>
+   <li class="iconfi"><i class="fa fa-twitter"></i></li>
+   <li class="iconfi"><i class="fa fa-youtube"></i></li>
+  </ul>
+
+   <div class="table-responsive">
+       <table class="table">
+           <tbody>
+             <tr>
+               <td>Contact Us </td>
+               <td> Advertise </td>
+               <td>About Our  </td>
+             </tr>
+             <tr>
+               <td>Terms </td>
+               <td>Thornton</td>
+               <td>Support</td>
+             </tr>
+             <tr>
+               <td>Press </td>
+               <td>Newsletter</td>
+               <td>Subscribe</td>
+             </tr>
+           </tbody>   
+       </table>
+       <table>
+        <tr>
+          <textarea id="w3review" name="w3review" rows="1" cols="30">
+         Your message...
+          </textarea>
+        </tr>
+         <td> 
+          <button id="submit">Summit</button>
+         </td>
+        
+       </table>
+
+       <p style="color: #fff;">©2021 Assem, Zharas Inc. All Rights Reserved.</p>
+   </div>
+</div>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight = "0px"
+        ) {
+          MenuItems.style.maxHeight = "200px";
+        }
+        else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+      </script>
+</body>
+</html>
